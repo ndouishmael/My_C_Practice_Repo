@@ -2,9 +2,10 @@
 
 int main()
 {
-	int x = 10;
-	int y = x/2;
-	
-	printf("The magic number is: %i\nThe value of x is %i\n",y , x);
+	int radius; //the distance from outside to center of the circle
+	printf("Please enter a radius: ");
+	scanf("%i", &radius); //address of operator
+
+	printf("The given radius is %i\n" ,radius);
 	return 0;
 }
